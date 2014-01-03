@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Adi Srikanth</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$(".accordion h3:first").addClass("active");
+	$(".accordion p:not(:first)").hide();
+
+	$(".accordion h3").click(function(){
+		$(this).next("p").slideToggle("slow")
+		.siblings("p:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings("h3").removeClass("active");
+	});
+
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23191598-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+#sidebar1 { width: 400px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+#sidebar1 { padding-top: 30px; }
+#mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]--></head>
+
+<body>
+<!-- begin #container -->
+<div id="container">
+	<!-- begin #header -->
+    <div id="header">
+    	<div class="topHeader">
+            <div class="logoContainer">
+                <div class="logo">
+                    Adi <span>Srikanth</span>
+                </div>
+				
+                
+            </div>
+            <div class="icons">
+                <ul>
+                    <li><a href="https://www.facebook.com/adisrikanth" target="_blank"><img src="images/Facebook-32.png" alt="My Facebook" /></a></li>
+                    <li><a href="https://twitter.com/#!/adisrikanth" target="_blank"><img src="images/Twitter-32.png" alt="" /></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="clearfloat"></div>
+        <div id="navcontainer">
+            <ul id="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li id="active"><a href="#">About Me</a></li>
+                <li><a href="construct.html">Blog</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
+        <div class="headerPic">
+        	
+        </div>
+    </div>
+    <!-- end #header -->
+    <!-- begin #sidebar1 -->
+    <div id="sidebar1">
+    	<div class="titleContent">ABOUT ME</div>
+    	<div class="bodyContent">
+            <h1>Who am I?</h1>
+            <p>
+			I am Self-motivated , Hard Working Programmer. 
+			Adaptable to various working conditions and fast in applying the abilities that i have and learn. <br>
+			Have proven abilities at various stages of my career.
+			
+			</p>
+			<h1></h1>
+			
+			<h1>My Passions and Hobbies</h1>
+			<p>
+			Other than programming, I like to watch Football. Whenever i get time i will follow the football club <i>Manchester United</i> whose <i>Never Give Up</i> attitude interests me.
+			<br><br>
+			I also follow various technology sites mainly Techcrunch or YCombinator.
+			
+			</p>
+        </div>
+    </div>
+    <!-- end #sidebar1 -->
+    <!-- begin #mainContent -->
+    <div id="mainContent">
+    	<div class="titleContent">My Career Highlights</div>
+        <div class="accordion">
+            <h3>Objective</h3>
+            <p><br />
+            To be in a position to utilize my skills and abilities in the Information Technology that offers professional growth while being resourceful, innovative and flexible.</p>
+            <h3>Educational Qualification(Highest)</h3>
+            <p>Pursuing M.E. Software Systems BITS-Pilani</p>
+            <h3>Latest Professional Activity</h3>
+            <p>Web Administrator for <a href="http://www.bits-pilani.ac.in:12355" target="_blank">PSD, BITS-Pilani</a></p>
+            <h3>Last Job</h3>
+            <p>Software Team Leader, <a href="http://www.serenusinfo.com/" target="_blank">Serenus Information Systems-Hyderabad</a></p>
+               </div>
+    </div>
+    <!-- end #mainContent -->
+    <br class="clearfloat" />
+</div>
+<!-- end #container -->
+<!-- begin #footer -->
+<div id="footer">
+    
+    <div class="copyright">
+    	<p>Copyright &copy; 2010 <a href="http://www.free-jquery-templates.com" title="Free Jquery Templates">Organic Design.</a> Design by Adi Srikanth<a href="http://www.freedomain.co.nr">CO.NR</a></p>
+    </div>
+</div>
+<!-- end #footer -->
+</body>
+</html>

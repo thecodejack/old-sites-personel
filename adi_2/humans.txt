@@ -1,0 +1,21 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Adi
+  Site: http://bit.ly/adisrikanth
+  From: Hyderabad, India
+
+/* THANKS */
+  Names (& URL):
+
+/* SITE */
+  Last update: 2012/03/14
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  IDE: Aptana Studio
+  Software: FileZilla
+
+
+

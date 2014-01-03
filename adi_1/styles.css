@@ -1,0 +1,239 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #ffffff url(images/pageBackground.jpg) repeat-x left top;
+	color: #817c87;
+}
+a {
+	color:#83bdfe;
+	text-decoration:underline;
+}
+a:hover {
+	color:#83bdfe;
+	text-decoration:none;
+}
+h1 {
+	color:#8bcb22;
+	font-size:14px;
+	padding:0 0 10px 0;
+}
+#container { 
+	width: 800px;  
+	margin: 0 auto; 
+} 
+#header { 
+
+}
+.topHeader {
+	height:107px;
+}
+.logoContainer {
+	float:left;
+}
+.logo {
+	padding:20px 0 0 0;
+	font-size:36px;
+	font-style:italic;
+}
+.logo span {
+	color:#8bcb22;
+}
+.author {
+}
+.icons {
+	float:right;
+	padding:35px 0 0 0;
+}
+.icons ul {
+}
+.icons li {
+	list-style:none;
+	display:inline;
+}
+.icons li img {
+	border:0;
+}
+.icons1 {
+	padding:35px 0 0 0;
+}
+.icons1 ul {
+}
+.icons1 li {
+	list-style:none;
+	display:inline;
+}
+.icons1 li img {
+	border:0;
+}
+.headerPic {
+	width:800px;
+	height:200px;
+	background: url(images/pageHeader.jpg) no-repeat left top;
+	border-top:6px solid #ace736;
+	margin:36px 0 0 0;
+} 
+.slogan {
+	color:#464646;
+	font-size:24px;
+	padding:30px 0 0 40px;
+}
+.slogan2 {
+	color:#82c31c;
+	font-size:24px;
+	font-style:italic;
+	padding:0 0 0 100px;
+}
+.titleContent {
+	background:#787c7f;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 20px;
+	color:#ffffff;
+}
+#sidebar1 {
+	float: left; 
+	width: 400px;
+	padding:20px 0; 
+}
+
+#sidebar2 {
+	float: left; 
+	width: 800px;
+	padding:20px 0; 
+}
+
+
+#mainContent { 
+	margin: 0 0 0 440px;
+	padding:20px 0; 
+} 
+#footer {
+} 
+.copyright p {
+	padding:25px 0 0 0;
+	text-align:center;
+}
+.copyright {
+	background:#212223;
+	color:#636363;
+	height:74px;
+}
+.copyright a {
+	color:#636363;
+}
+h2 {
+	font-size:18px;
+	font-weight:bold;
+	padding:40px 0 20px 0;
+}
+.footerInfoCotainer {
+	height:400px;
+	background:#bfbfbf;
+	color:#212223;
+}
+.footerInfoCotainer .buttons img {
+	border:0;
+	padding:10px 0 0 0;
+}
+.footerInfo {
+	width:800px;
+	margin:0 auto;
+}
+.testimonialsContainer {
+	width:400px;
+	float:left;
+}
+.testimonialsContainer .testimonialAuthor {
+	text-align:right;
+}
+.newsContainer {
+	margin:0 0 0 440px;
+}
+.newsList {
+	padding:0 0 15px 0;
+}
+.newsList img {
+	border:0;
+}
+.newsList span {
+	color: #eeeeee;
+}
+.bodyContent {
+	border:1px solid #cfcfcf;
+	padding:20px;
+	margin:5px 0 0 0;
+}
+
+
+
+
+.accordion {
+	width:360px;
+	border-bottom:1px solid #cfcfcf;
+	padding:5px 0 0 0;
+}
+.accordion h3 {
+	background: #787C7F url(images/arrow.png) no-repeat right -37px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+	border-top: 1px solid #eeeeee;
+	cursor: pointer;
+	color:#ffffff;
+}
+.accordion h3:hover {
+	background-color: #e3e2e2;
+	color:#787c7f;
+}
+.accordion h3.active {
+	background-position: right 3px;
+}
+.accordion p {
+	background: #ffffff;
+	margin: 0;
+	padding: 10px 10px 20px 20px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*menu*/
+#navcontainer {
+	padding:5px 0 20px 0;
+}
+#navcontainer ul {
+	padding-left: 0;
+	margin-left: 0;
+	color: White;
+	float: left;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+}
+#navcontainer ul li { 
+	display: inline; 
+}
+#navcontainer ul li a {
+	padding:15px 42px 30px 42px;
+	font-size:24px;
+	color: White;
+	text-decoration: none;
+	float: left;
+}
+#navcontainer ul li a:hover {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+}
+#navcontainer #active a {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+}
